@@ -3212,7 +3212,7 @@
     (uuid 00000000-0000-0000-0000-00005f1c3fb3)
     (property "Reference" "J1" (id 0) (at 21.1328 116.4082 0))
     (property "Value" "ShuntConn" (id 1) (at 21.1328 118.7196 0))
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" (id 2) (at 19.05 124.46 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" (id 2) (at 19.05 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 19.05 124.46 0)
@@ -4640,7 +4640,7 @@
       (reference "H4") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-00005f1c3fb3"
-      (reference "J1") (unit 1) (value "ShuntConn") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical")
+      (reference "J1") (unit 1) (value "ShuntConn") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005f0d0a13"
       (reference "J2") (unit 1) (value "LeaderConn") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical")
