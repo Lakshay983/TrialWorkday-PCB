@@ -4,3 +4,6 @@
 [submodule "bps-libs"]
 	path = bps-libs
 	url = git@github.com:lhr-solar/BPS-KiCadLibraries.git
+[submodule "KiCAD_QAC"]
+	path = KiCAD_QAC
+	url = git@github.com:lhr-solar/KiCAD_QAC.git
