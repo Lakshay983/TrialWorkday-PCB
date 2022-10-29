@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 5.5,
+          "width": 1.0
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -58,7 +58,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -81,7 +81,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -131,7 +131,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1016000|520700|00000000-0000-0000-0000-00005f1b77d0|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1219200|393700|00000000-0000-0000-0000-00005f1e5514|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1631950|1485900|00000000-0000-0000-0000-0000618973c1|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|1879600|609600|00000000-0000-0000-0000-00005f238faa|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|2324100|571500|00000000-0000-0000-0000-000060a29be4|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|2438400|660400|00000000-0000-0000-0000-00005f1e5c4c|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|723900|838200|00000000-0000-0000-0000-0000615f5252|00000000-0000-0000-0000-000000000000",
+      "no_connect_connected|2019300|520700|7b41bba9-45c4-48c9-814a-f2399dd88000|00000000-0000-0000-0000-000000000000",
+      "no_connect_connected|241300|1193800|bde9786c-a7cc-4f48-8142-cf2173909ee0|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1409700|1524000|db418da1-75f9-4fd1-8ade-3702e2bae6be|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|330200|1600200|fbc9303a-bc76-4599-a176-07e010334ead|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|736600|533400|e0ce33dd-abc9-430c-b7bc-d293eef27e3e|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
