@@ -1242,11 +1242,11 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005f103b51")
     (attr smd)
-    (fp_text reference "U4" (at 7.5 0 90) (layer "F.SilkS")
+    (fp_text reference "U4" (at 7.5 0 90) (layer "F.SilkS") hide
       (effects (font (size 0.801614 0.801614) (thickness 0.05)))
       (tstamp 404440fa-4c07-4d5a-b3d0-c79f269c0091)
     )
-    (fp_text value "HX1188FNL" (at -0.50895 1.50142) (layer "F.SilkS")
+    (fp_text value "HX1188FNL" (at -0.50895 1.50142) (layer "F.SilkS") hide
       (effects (font (size 0.641203 0.641203) (thickness 0.05)))
       (tstamp 79fc7a9a-1da7-4b2c-ac84-ec07fa9eb28d)
     )
@@ -6930,7 +6930,7 @@
   (gr_text "ETS" (at 120.5 107.5 45) (layer "F.SilkS") (tstamp 82204892-ec79-4d38-a593-52fb9a9b4b87)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "Hannah\nwas\nhere" (at 141.5 118) (layer "F.SilkS") (tstamp 87ba184f-bff5-4989-8217-6af375cc3dd8)
+  (gr_text "Manthan approved\nthis pull request.\ngithub.com/\n	manthanand" (at 141.5 118) (layer "F.SilkS") (tstamp 87ba184f-bff5-4989-8217-6af375cc3dd8)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "GND" (at 124.5 128.25) (layer "F.SilkS") (tstamp 8b963561-586b-4575-b721-87e7914602c6)
